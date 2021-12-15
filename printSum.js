@@ -21,7 +21,7 @@ function printSum(operator, ...args) {
         sum += args[i];
     }
   }
-  return sum;
+  return parseInt(sum + operator);
 }
 
 console.log(printSum("*", 1, 2, 3)); // 6
